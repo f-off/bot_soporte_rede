@@ -13,7 +13,7 @@ def preguntar_ia(prompt):
     }
 
     data = {
-        "model": "mistral/mistral-7b-instruct",
+        "model": "openchat/openchat-3.5",
         "messages": [
             {"role": "system", "content": "Sos un asistente experto en redes, soporte técnico e informática. Responde en español de forma clara y profesional."},
             {"role": "user", "content": prompt}
